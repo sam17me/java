@@ -29,6 +29,6 @@ public class Gradebook
 	{
 		// this statement calls getCourseName to get the
 		// ame of the course this GradeBook represents
-		System.out.printf("Welcome to the grade book for\n%s!\n",getCourseName() );
+		System.out.printf("Welcome to the grade book for\n%s!\n", getCourseName() );
 	}  // end method displayMessage	
 }
