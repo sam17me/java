@@ -1,12 +1,17 @@
 // Fig. 3.10: GradeBook.java
-// GradeBook class that contains a courseName instance variable
-// and methos to set and get its value
+// GradeBook class with a constructor to initialize the course name.
 
 
 public class Gradebook
 {
 	private String courseName;  // course name for this GradeBook 
-	
+
+	// constructor initializes courseName with String supplied as argument
+	public Gradebook(String name)
+	{
+		courseName = name; // initializes courseName
+	}  // end constructor
+
 	// method to set the course name
 	public void setCourseName( String name)
 	{
@@ -24,6 +29,6 @@ public class Gradebook
 	{
 		// this statement calls getCourseName to get the
 		// ame of the course this GradeBook represents
-		System.out.printf("Welcome to the grade book for\n%s!\n", getCourseName() );
+		System.out.printf("Welcome to the grade book for\n%s!\n",getCourseName() );
 	}  // end method displayMessage	
 }
