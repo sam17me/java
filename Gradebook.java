@@ -1,4 +1,4 @@
-// Fig. 3.7: GradeBook.java
+// Fig. 3.10: GradeBook.java
 // GradeBook class that contains a courseName instance variable
 // and methos to set and get its value
 
